@@ -174,6 +174,86 @@
 
 
 
+// import React from 'react';
+
+// export default function ContactUs() {
+//   return (
+//     <div className="max-w-4xl mx-auto px-4 py-10 font-sans text-slate-800 leading-relaxed">
+      
+//       {/* Title */}
+//       <h1 className="text-3xl font-bold text-slate-900 border-b pb-4 mb-6">Contact Us</h1>
+//       <p className="text-sm text-slate-600 mb-8">
+//         Have a question regarding your order, shipment, or AI Size & Virtual Try-On? Get in touch with us using the details below.
+//       </p>
+
+//       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+//         {/* Customer Support */}
+//         <div className="space-y-3">
+//           <h2 className="text-lg font-semibold text-slate-900 border-b pb-2">Customer Support</h2>
+//           <ul className="text-sm space-y-2 text-slate-700">
+//             <li><strong>Email:</strong> syvora.official.acc@gmail.com</li>
+            
+//             <li><strong>Support Hours:</strong> Mon – Sat: 10:00 AM to 7:00 PM IST</li>
+//             <li><strong>Response SLA:</strong> Within 48 business hours</li>
+//           </ul>
+//         </div>
+
+//         {/* Business & Legal Info */}
+//         <div className="space-y-3">
+//           <h2 className="text-lg font-semibold text-slate-900 border-b pb-2">Registered Entity Details</h2>
+//           <ul className="text-sm space-y-2 text-slate-700">
+//             <li><strong>Legal Name:</strong> Navya Kulshrestha</li>
+//             <li><strong>Brand Name:</strong> SYVORA</li>
+//             <li><strong>GSTIN:</strong> 09PAAPK4920G1ZJ</li>
+            
+//           </ul>
+//         </div>
+//       </div>
+
+//       {/* Corporate Office Address */}
+//       <div className="mb-10">
+//         <h2 className="text-lg font-semibold text-slate-900 border-b pb-2 mb-3">Corporate Office Address</h2>
+//         <p className="text-sm text-slate-700 leading-6">
+//           SYVORA <br />
+//           Firozabad, Uttar Pradesh - 283203, India
+//         </p>
+//       </div>
+
+//       {/* Grievance Officer */}
+//       <div className="bg-slate-50 border p-5 rounded-lg space-y-2">
+//         <h2 className="text-base font-bold text-slate-900">Grievance & Data Privacy Officer (DPDP Act 2023)</h2>
+//         <p className="text-xs text-slate-600">
+//           In compliance with the Consumer Protection (E-Commerce) Rules & Digital Personal Data Protection Act 2023:
+//         </p>
+//         <ul className="text-xs space-y-1 text-slate-700 pt-2">
+//           <li><strong>Name:</strong> Navya Kulshrestha</li>
+//           <li><strong>Email:</strong>syvora.official.acc@gmail.com</li>
+//           <li><strong>Resolution Time:</strong> Acknowledged within 48 hours; resolved within 15 days.</li>
+//         </ul>
+//       </div>
+
+//     </div>
+//   );
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 import React from 'react';
 
 export default function ContactUs() {
@@ -183,7 +263,7 @@ export default function ContactUs() {
       {/* Title */}
       <h1 className="text-3xl font-bold text-slate-900 border-b pb-4 mb-6">Contact Us</h1>
       <p className="text-sm text-slate-600 mb-8">
-        Have a question regarding your order, shipment, or AI Size & Virtual Try-On? Get in touch with us using the details below.
+        Have a question regarding your order, shipment, style quiz, or collaborative shopping rooms? Get in touch with us using the details below.
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
@@ -227,7 +307,7 @@ export default function ContactUs() {
         </p>
         <ul className="text-xs space-y-1 text-slate-700 pt-2">
           <li><strong>Name:</strong> Navya Kulshrestha</li>
-          <li><strong>Email:</strong>syvora.official.acc@gmail.com</li>
+          <li><strong>Email:</strong> syvora.official.acc@gmail.com</li>
           <li><strong>Resolution Time:</strong> Acknowledged within 48 hours; resolved within 15 days.</li>
         </ul>
       </div>

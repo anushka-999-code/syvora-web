@@ -85,6 +85,66 @@
 
 
 
+// import React from 'react';
+
+// export default function AboutUs() {
+//   return (
+//     <div className="max-w-4xl mx-auto px-4 py-10 font-sans text-slate-800 leading-relaxed">
+      
+//       <h1 className="text-3xl font-bold text-slate-900 border-b pb-4 mb-6">About Us</h1>
+
+//       <div className="space-y-8 text-sm text-slate-700">
+        
+//         <section>
+//           <h2 className="text-lg font-semibold text-slate-900 mb-2">Our Story</h2>
+//           <p className="leading-relaxed">
+//             We are an Indian fashion-tech platform on a mission to eliminate online size uncertainty. By integrating smart **AI Size Recommendation** and **Virtual Try-On** tools, we bring interactive fitting rooms directly to your screen so you can shop with confidence.
+//           </p>
+//         </section>
+
+//         <section>
+//           <h2 className="text-lg font-semibold text-slate-900 mb-2">What Sets Us Apart</h2>
+//           <ul className="list-disc pl-5 space-y-2">
+//             <li><strong>AI Virtual Fitting:</strong> Visualize apparel fit and drape on your body shape before ordering.</li>
+//             <li><strong>Personalized Sizing:</strong> Smart size recommendations for every product listing.</li>
+//             <li><strong>Quality Assurance:</strong> Premium fabrics, ethical manufacturing, and strict quality checks.</li>
+//             <li><strong>Privacy First:</strong> Fully compliant with India’s DPDP Act 2023 for all visual try-on data.</li>
+//           </ul>
+//         </section>
+
+//         <section className="bg-slate-50 border p-5 rounded-lg space-y-2">
+//           <h2 className="text-base font-bold text-slate-900">Registered Business Information</h2>
+//           <ul className="text-xs space-y-1.5 text-slate-700">
+//             <li><strong>Legal Entity Name:</strong> Navya Kulshrestha</li>
+//             <li><strong>MSME Udyam Registered</strong></li>
+//             <li><strong>GSTIN:</strong> 09PAAPK4920G1ZJ</li>
+//             <li><strong>Official Domain:</strong> https://www.syvora.in</li>
+//           </ul>
+//         </section>
+
+//       </div>
+//     </div>
+//   );
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 import React from 'react';
 
 export default function AboutUs() {
@@ -98,17 +158,17 @@ export default function AboutUs() {
         <section>
           <h2 className="text-lg font-semibold text-slate-900 mb-2">Our Story</h2>
           <p className="leading-relaxed">
-            We are an Indian fashion-tech platform on a mission to eliminate online size uncertainty. By integrating smart **AI Size Recommendation** and **Virtual Try-On** tools, we bring interactive fitting rooms directly to your screen so you can shop with confidence.
+            We are an Indian fashion-tech platform on a mission to eliminate online size and style uncertainty. By integrating smart body-quiz recommendations, event-based style planning, and interactive collaborative shopping, we bring personalized and social fashion curation directly to your screen.
           </p>
         </section>
 
         <section>
           <h2 className="text-lg font-semibold text-slate-900 mb-2">What Sets Us Apart</h2>
           <ul className="list-disc pl-5 space-y-2">
-            <li><strong>AI Virtual Fitting:</strong> Visualize apparel fit and drape on your body shape before ordering.</li>
-            <li><strong>Personalized Sizing:</strong> Smart size recommendations for every product listing.</li>
-            <li><strong>Quality Assurance:</strong> Premium fabrics, ethical manufacturing, and strict quality checks.</li>
-            <li><strong>Privacy First:</strong> Fully compliant with India’s DPDP Act 2023 for all visual try-on data.</li>
+            <li><strong>Style & Body Profiling:</strong> Personalized onboarding quiz to curate your weekly 5-piece capsule wardrobe.</li>
+            <li><strong>Event Planner:</strong> Smart calendar tracking with vibe-tagged product recommendations for upcoming occasions.</li>
+            <li><strong>Shop Together Rooms:</strong> Real-time collaborative shopping boards to share recommendations, react, and split checkout with friends.</li>
+            <li><strong>Privacy First:</strong> Fully compliant with India’s DPDP Act 2023 for all user preferences and profile data.</li>
           </ul>
         </section>
 

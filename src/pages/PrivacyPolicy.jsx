@@ -139,6 +139,79 @@
 
 
 
+// import React from 'react';
+
+// export default function PrivacyPolicy() {
+//   return (
+//     <div className="max-w-4xl mx-auto px-4 py-10 font-sans text-slate-800 leading-relaxed">
+      
+//       <h1 className="text-3xl font-bold text-slate-900 border-b pb-4 mb-2">Privacy Policy</h1>
+//       <p className="text-xs text-slate-500 mb-8">Last Updated: October 2026 | DPDP Act 2023 Compliant</p>
+
+//       <div className="space-y-8 text-sm text-slate-700">
+        
+//         <section>
+//           <h2 className="text-lg font-semibold text-slate-900 mb-2">1. Overview</h2>
+//           <p>
+//             This Privacy Policy describes how Syvora collects, uses, and protects your personal information when you visit or make a purchase from our platform.
+//           </p>
+//         </section>
+
+//         <section>
+//           <h2 className="text-lg font-semibold text-slate-900 mb-2">2. Information We Collect</h2>
+//           <ul className="list-disc pl-5 space-y-1.5">
+//             <li><strong>Personal Identity:</strong> Name, shipping address, email address, and mobile number.</li>
+//             <li><strong>Body Metrics:</strong> Height, weight, and size preferences provided for size recommendations.</li>
+//             <li><strong>Virtual Try-On Media:</strong> Photos or camera captures uploaded strictly for fit preview generation.</li>
+//             <li><strong>Payment Logs:</strong> Transaction details via PCI-DSS compliant payment gateways (Razorpay/PayU). We do not store credit card or UPI PIN details.</li>
+//           </ul>
+//         </section>
+
+//         <section>
+//           <h2 className="text-lg font-semibold text-slate-900 mb-2">3. Virtual Try-On & DPDP Act 2023 Compliance</h2>
+//           <ul className="list-disc pl-5 space-y-1.5">
+//             <li><strong>Purpose Limitation:</strong> Uploaded body images are used solely to render your fit simulation.</li>
+//             <li><strong>No Biometric Retention:</strong> We do NOT sell, lease, or use images for public facial recognition training.</li>
+//             <li><strong>Consent:</strong> Uploading a photo or enabling camera access constitutes explicit session-based consent.</li>
+//             <li><strong>Automatic Erasure:</strong> Try-on media is automatically purged from temporary servers within 30 days.</li>
+//           </ul>
+//         </section>
+
+//         <section>
+//           <h2 className="text-lg font-semibold text-slate-900 mb-2">4. Your Data Rights</h2>
+//           <p className="mb-2">Under the DPDP Act 2023, you have the right to:</p>
+//           <ul className="list-disc pl-5 space-y-1.5">
+//             <li>Request access to your stored personal data.</li>
+//             <li>Request correction or complete deletion of your sizing profile and photos.</li>
+//             <li>Withdraw consent for media processing at any time.</li>
+//           </ul>
+//         </section>
+
+//         <section>
+//           <h2 className="text-lg font-semibold text-slate-900 mb-2">5. Data Protection Officer</h2>
+//           <p>For data privacy queries or erasure requests, contact our Grievance Officer at <strong>syvora.official.acc@gmail.com</strong>.</p>
+//         </section>
+
+//       </div>
+//     </div>
+//   );
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 import React from 'react';
 
 export default function PrivacyPolicy() {
@@ -146,14 +219,14 @@ export default function PrivacyPolicy() {
     <div className="max-w-4xl mx-auto px-4 py-10 font-sans text-slate-800 leading-relaxed">
       
       <h1 className="text-3xl font-bold text-slate-900 border-b pb-4 mb-2">Privacy Policy</h1>
-      <p className="text-xs text-slate-500 mb-8">Last Updated: October 2026 | DPDP Act 2023 Compliant</p>
+      <p className="text-xs text-slate-500 mb-8">Last Updated: November 2026 | DPDP Act 2023 Compliant</p>
 
       <div className="space-y-8 text-sm text-slate-700">
         
         <section>
           <h2 className="text-lg font-semibold text-slate-900 mb-2">1. Overview</h2>
           <p>
-            This Privacy Policy describes how Syvora collects, uses, and protects your personal information when you visit or make a purchase from our platform.
+            This Privacy Policy describes how SYVORA collects, uses, and protects your personal information when you visit or make a purchase from our platform.
           </p>
         </section>
 
@@ -161,19 +234,18 @@ export default function PrivacyPolicy() {
           <h2 className="text-lg font-semibold text-slate-900 mb-2">2. Information We Collect</h2>
           <ul className="list-disc pl-5 space-y-1.5">
             <li><strong>Personal Identity:</strong> Name, shipping address, email address, and mobile number.</li>
-            <li><strong>Body Metrics:</strong> Height, weight, and size preferences provided for size recommendations.</li>
-            <li><strong>Virtual Try-On Media:</strong> Photos or camera captures uploaded strictly for fit preview generation.</li>
-            <li><strong>Payment Logs:</strong> Transaction details via PCI-DSS compliant payment gateways (Razorpay/PayU). We do not store credit card or UPI PIN details.</li>
+            <li><strong>Quiz & Style Preferences:</strong> Body type, aesthetic vibe choices, and budget brackets provided during onboarding.</li>
+            <li><strong>Event Planner Data:</strong> Saved event names, dates, and vibe tags.</li>
+            <li><strong>Collaborative Room Data:</strong> Room identifiers, shared product selections, participant names/avatars, and reaction or chat logs during group shopping.</li>
+            <li><strong>Payment Logs:</strong> Transaction details processed via PCI-DSS compliant payment gateways (Razorpay/PayU). We do not store credit card or UPI PIN details.</li>
           </ul>
         </section>
 
         <section>
-          <h2 className="text-lg font-semibold text-slate-900 mb-2">3. Virtual Try-On & DPDP Act 2023 Compliance</h2>
+          <h2 className="text-lg font-semibold text-slate-900 mb-2">3. Use of Information</h2>
           <ul className="list-disc pl-5 space-y-1.5">
-            <li><strong>Purpose Limitation:</strong> Uploaded body images are used solely to render your fit simulation.</li>
-            <li><strong>No Biometric Retention:</strong> We do NOT sell, lease, or use images for public facial recognition training.</li>
-            <li><strong>Consent:</strong> Uploading a photo or enabling camera access constitutes explicit session-based consent.</li>
-            <li><strong>Automatic Erasure:</strong> Try-on media is automatically purged from temporary servers within 30 days.</li>
+            <li><strong>Purpose Limitation:</strong> Data from onboarding quizzes, event planners, and collaborative rooms is used strictly to run these features (such as capsule wardrobe generation, event countdowns, and shared room shopping).</li>
+            <li><strong>Consent:</strong> Using these app features constitutes your consent for processing this data under the DPDP Act 2023.</li>
           </ul>
         </section>
 
@@ -182,14 +254,22 @@ export default function PrivacyPolicy() {
           <p className="mb-2">Under the DPDP Act 2023, you have the right to:</p>
           <ul className="list-disc pl-5 space-y-1.5">
             <li>Request access to your stored personal data.</li>
-            <li>Request correction or complete deletion of your sizing profile and photos.</li>
-            <li>Withdraw consent for media processing at any time.</li>
+            <li>Request correction or complete deletion of your profile, quiz data, and event history.</li>
+            <li>Withdraw your consent at any time.</li>
           </ul>
         </section>
 
         <section>
-          <h2 className="text-lg font-semibold text-slate-900 mb-2">5. Data Protection Officer</h2>
-          <p>For data privacy queries or erasure requests, contact our Grievance Officer at <strong>syvora.official.acc@gmail.com</strong>.</p>
+          <h2 className="text-lg font-semibold text-slate-900 mb-2">5. Data Protection & Grievance Officer</h2>
+          <p className="mb-2">
+            For data privacy queries, data erasure requests, or grievances under the DPDP Act 2023, reach out to our designated officer:
+          </p>
+          <div className="space-y-1">
+            <p className="font-semibold text-slate-900">SYVORA</p>
+            <p>Contact: Navya Kulshrestha (Founder & Grievance Officer)</p>
+            <p>Email: syvora.official.acc@gmail.com</p>
+            <p className="pt-2">Response SLA: Acknowledged within 48 hours | Resolved within 15 days.</p>
+          </div>
         </section>
 
       </div>

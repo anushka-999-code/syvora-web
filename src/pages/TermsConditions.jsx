@@ -144,6 +144,70 @@
 
 
 
+// import React from 'react';
+
+// export default function TermsOfService() {
+//   return (
+//     <div className="max-w-4xl mx-auto px-4 py-10 font-sans text-slate-800 leading-relaxed">
+      
+//       <h1 className="text-3xl font-bold text-slate-900 border-b pb-4 mb-2">Terms of Service</h1>
+//       <p className="text-xs text-slate-500 mb-8">Last Updated: October 2026</p>
+
+//       <div className="space-y-8 text-sm text-slate-700">
+        
+//         <section>
+//           <h2 className="text-lg font-semibold text-slate-900 mb-2">1. Ownership & Entity</h2>
+//           <p>
+//             This website is owned and operated by <strong>Navya Kulshrestha</strong>    GSTIN: 09PAAPK4920G1ZJ
+//           </p>
+//         </section>
+
+//         <section>
+//           <h2 className="text-lg font-semibold text-slate-900 mb-2">2. AI Virtual Try-On & Size Disclaimer</h2>
+//           <ul className="list-disc pl-5 space-y-1.5">
+//             <li>Our Virtual Try-On and Size Recommendation tools utilize AI algorithms for visual estimation purposes only.</li>
+//             <li>Physical garment fit, fabric drape, and screen color calibrations may vary slightly from digital simulations.</li>
+//             <li>Minor fit variations from AI recommendations do not constitute manufacturing defects.</li>
+//           </ul>
+//         </section>
+
+//         <section>
+//           <h2 className="text-lg font-semibold text-slate-900 mb-2">3. Pricing & Taxes</h2>
+//           <ul className="list-disc pl-5 space-y-1.5">
+//             <li>All prices are listed in INR and are inclusive of GST.</li>
+//             <li>We reserve the right to correct any inadvertent pricing errors prior to order dispatch.</li>
+//           </ul>
+//         </section>
+
+//         <section>
+//           <h2 className="text-lg font-semibold text-slate-900 mb-2">4. Governing Law</h2>
+//           <p>
+//             These terms are governed by Indian law. Any legal disputes are subject to the jurisdiction of courts in Firozabad,Uttar Pradesh.
+//           </p>
+//         </section>
+
+//       </div>
+//     </div>
+//   );
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 import React from 'react';
 
 export default function TermsOfService() {
@@ -151,23 +215,24 @@ export default function TermsOfService() {
     <div className="max-w-4xl mx-auto px-4 py-10 font-sans text-slate-800 leading-relaxed">
       
       <h1 className="text-3xl font-bold text-slate-900 border-b pb-4 mb-2">Terms of Service</h1>
-      <p className="text-xs text-slate-500 mb-8">Last Updated: October 2026</p>
+      <p className="text-xs text-slate-500 mb-8">Last Updated: November 2026</p>
 
       <div className="space-y-8 text-sm text-slate-700">
         
         <section>
           <h2 className="text-lg font-semibold text-slate-900 mb-2">1. Ownership & Entity</h2>
           <p>
-            This website is owned and operated by <strong>Navya Kulshrestha</strong>    GSTIN: 09PAAPK4920G1ZJ
+            This website is owned and operated by <strong>Navya Kulshrestha</strong> &nbsp; GSTIN: 09PAAPK4920G1ZJ
           </p>
         </section>
 
         <section>
-          <h2 className="text-lg font-semibold text-slate-900 mb-2">2. AI Virtual Try-On & Size Disclaimer</h2>
+          <h2 className="text-lg font-semibold text-slate-900 mb-2">2. Style Quiz, Event Planner & Shared Rooms Disclaimer</h2>
           <ul className="list-disc pl-5 space-y-1.5">
-            <li>Our Virtual Try-On and Size Recommendation tools utilize AI algorithms for visual estimation purposes only.</li>
-            <li>Physical garment fit, fabric drape, and screen color calibrations may vary slightly from digital simulations.</li>
-            <li>Minor fit variations from AI recommendations do not constitute manufacturing defects.</li>
+            <li>Onboarding quiz choices (body types, aesthetic vibes, and budget brackets) are used to curate capsule wardrobe feeds and size suggestions for informational guidance only.</li>
+            <li>Event planner reminders and notifications are provided as scheduling aids; SYVORA is not responsible for missed events or inaccurate user-entered schedules.</li>
+            <li>Collaborative "Shop Together" rooms allow shared shopping and real-time interaction; participants are responsible for their shared cart actions and group purchase selections.</li>
+            <li>Physical garment fit and fabric colors may vary slightly from digital representations.</li>
           </ul>
         </section>
 
@@ -182,7 +247,7 @@ export default function TermsOfService() {
         <section>
           <h2 className="text-lg font-semibold text-slate-900 mb-2">4. Governing Law</h2>
           <p>
-            These terms are governed by Indian law. Any legal disputes are subject to the jurisdiction of courts in Firozabad,Uttar Pradesh.
+            These terms are governed by Indian law. Any legal disputes are subject to the jurisdiction of courts in Firozabad, Uttar Pradesh.
           </p>
         </section>
 
