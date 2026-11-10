@@ -192,7 +192,7 @@ export default function ContactUs() {
           <h2 className="text-lg font-semibold text-slate-900 border-b pb-2">Customer Support</h2>
           <ul className="text-sm space-y-2 text-slate-700">
             <li><strong>Email:</strong> syvora.official.acc@gmail.com</li>
-            <li><strong>Phone / WhatsApp:</strong> +91-8265875877</li>
+            
             <li><strong>Support Hours:</strong> Mon – Sat: 10:00 AM to 7:00 PM IST</li>
             <li><strong>Response SLA:</strong> Within 48 business hours</li>
           </ul>
@@ -215,8 +215,6 @@ export default function ContactUs() {
         <h2 className="text-lg font-semibold text-slate-900 border-b pb-2 mb-3">Corporate Office Address</h2>
         <p className="text-sm text-slate-700 leading-6">
           SYVORA <br />
-          257, Street no-08,<br />
-          Arya Nagar <br />
           Firozabad, Uttar Pradesh - 283203, India
         </p>
       </div>

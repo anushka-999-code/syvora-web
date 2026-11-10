@@ -153,7 +153,7 @@ export default function PrivacyPolicy() {
         <section>
           <h2 className="text-lg font-semibold text-slate-900 mb-2">1. Overview</h2>
           <p>
-            This Privacy Policy describes how [Your Company Name] collects, uses, and protects your personal information when you visit or make a purchase from our platform.
+            This Privacy Policy describes how Syvora collects, uses, and protects your personal information when you visit or make a purchase from our platform.
           </p>
         </section>
 

@@ -269,47 +269,167 @@
 
 
 
+// import React from 'react';
+// import { Link } from 'react-router-dom';
+
+// export default function AppFooter() {
+//   return (
+//     <footer className="bg-slate-900 text-slate-300 pt-12 pb-8 border-t border-slate-800 font-sans mt-auto">
+//       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-8">
+        
+//         {/* Brand Column */}
+//         <div className="space-y-4">
+//           {/* Larger Circular Logo Container */}
+//           <div className="bg-white p-2.5 rounded-full inline-flex items-center justify-center shadow-sm h-32 w-32 overflow-hidden border border-slate-700">
+//             <img 
+//               src="/src/assets/syvora_logo.png" 
+//               alt="SYVORA Logo" 
+//               className="h-full w-full object-contain scale-110" 
+//             />
+//           </div>
+//           <p className="text-xs text-slate-400 leading-relaxed max-w-xs">
+//             India's Smart Fashion & AI Virtual Try-On Platform. Experience virtual fitting before you buy.
+//           </p>
+//         </div>
+
+//         {/* Quick Links */}
+//         <div>
+//           <h4 className="text-xs font-bold uppercase tracking-widest text-white mb-4">
+//             Navigation
+//           </h4>
+//           <ul className="space-y-2.5 text-xs text-slate-400">
+//             <li>
+//               <Link to="/" className="hover:text-white transition-colors">
+//                 Home
+//               </Link>
+//             </li>
+//             <li>
+//               <Link to="/about" className="hover:text-white transition-colors">
+//                 About Us
+//               </Link>
+//             </li>
+//             <li>
+//               <Link to="/contact-us" className="hover:text-white transition-colors">
+//                 Contact Us
+//               </Link>
+//             </li>
+//           </ul>
+//         </div>
+
+//         {/* Legal & Compliance (Razorpay Mandate) */}
+//         <div>
+//           <h4 className="text-xs font-bold uppercase tracking-widest text-white mb-4">
+//             Legal & Policies
+//           </h4>
+//           <ul className="space-y-2.5 text-xs text-slate-400">
+//             <li>
+//               <Link to="/privacy-policy" className="hover:text-white transition-colors">
+//                 Privacy Policy
+//               </Link>
+//             </li>
+//             <li>
+//               <Link to="/terms-conditions" className="hover:text-white transition-colors">
+//                 Terms & Conditions
+//               </Link>
+//             </li>
+//             <li>
+//               <Link to="/refund-policy" className="hover:text-white transition-colors">
+//                 Refund & Cancellation
+//               </Link>
+//             </li>
+//             <li>
+//               <Link to="/shipping-policy" className="hover:text-white transition-colors">
+//                 Shipping Policy
+//               </Link>
+//             </li>
+//           </ul>
+//         </div>
+
+//         {/* Contact Info */}
+//         <div>
+//           <h4 className="text-xs font-bold uppercase tracking-widest text-white mb-4">
+//             Contact Support
+//           </h4>
+//           <div className="space-y-2 text-xs text-slate-400 leading-relaxed">
+//             <p>
+//               <strong className="text-slate-200">Email:</strong>{' '}
+//               <a href="mailto:syvora.official.acc@gmail.com" className="hover:underline">
+//                 syvora.official.acc@gmail.com
+//               </a>
+//             </p>
+//             <p>
+             
+//             </p>
+//             <p className="pt-2 text-[11px] text-slate-500">
+//               SYVORA<br />
+//                Firozabad , UP - 283203
+//             </p>
+//           </div>
+//         </div>
+
+//       </div>
+
+//       {/* Copyright Line */}
+//       <div className="max-w-7xl mx-auto px-6 mt-10 pt-6 border-t border-slate-800 text-center text-[11px] text-slate-500">
+//         © 2026 SYVORA. All rights reserved. Registered under DPDP Act 2023 guidelines.
+//       </div>
+//     </footer>
+//   );
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 
 export default function AppFooter() {
   return (
-    <footer className="bg-slate-900 text-slate-300 pt-12 pb-8 border-t border-slate-800 font-sans mt-auto">
+    <footer className="bg-[#2C221E] text-[#D8CCC0] pt-12 pb-8 border-t border-[#43342D] font-sans mt-auto">
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-8">
         
         {/* Brand Column */}
         <div className="space-y-4">
           {/* Larger Circular Logo Container */}
-          <div className="bg-white p-2.5 rounded-full inline-flex items-center justify-center shadow-sm h-32 w-32 overflow-hidden border border-slate-700">
+          <div className="bg-[#FAF7F2] p-2.5 rounded-full inline-flex items-center justify-center shadow-sm h-32 w-32 overflow-hidden border border-[#D8CCC0]">
             <img 
               src="/src/assets/syvora_logo.png" 
               alt="SYVORA Logo" 
               className="h-full w-full object-contain scale-110" 
             />
           </div>
-          <p className="text-xs text-slate-400 leading-relaxed max-w-xs">
+          <p className="text-xs text-[#B5A497] leading-relaxed max-w-xs">
             India's Smart Fashion & AI Virtual Try-On Platform. Experience virtual fitting before you buy.
           </p>
         </div>
 
         {/* Quick Links */}
         <div>
-          <h4 className="text-xs font-bold uppercase tracking-widest text-white mb-4">
+          <h4 className="text-xs font-bold uppercase tracking-widest text-[#F5EBE6] mb-4">
             Navigation
           </h4>
-          <ul className="space-y-2.5 text-xs text-slate-400">
+          <ul className="space-y-2.5 text-xs text-[#B5A497]">
             <li>
-              <Link to="/" className="hover:text-white transition-colors">
+              <Link to="/" className="hover:text-[#F5EBE6] transition-colors">
                 Home
               </Link>
             </li>
             <li>
-              <Link to="/about" className="hover:text-white transition-colors">
+              <Link to="/about" className="hover:text-[#F5EBE6] transition-colors">
                 About Us
               </Link>
             </li>
             <li>
-              <Link to="/contact-us" className="hover:text-white transition-colors">
+              <Link to="/contact-us" className="hover:text-[#F5EBE6] transition-colors">
                 Contact Us
               </Link>
             </li>
@@ -318,27 +438,27 @@ export default function AppFooter() {
 
         {/* Legal & Compliance (Razorpay Mandate) */}
         <div>
-          <h4 className="text-xs font-bold uppercase tracking-widest text-white mb-4">
+          <h4 className="text-xs font-bold uppercase tracking-widest text-[#F5EBE6] mb-4">
             Legal & Policies
           </h4>
-          <ul className="space-y-2.5 text-xs text-slate-400">
+          <ul className="space-y-2.5 text-xs text-[#B5A497]">
             <li>
-              <Link to="/privacy-policy" className="hover:text-white transition-colors">
+              <Link to="/privacy-policy" className="hover:text-[#F5EBE6] transition-colors">
                 Privacy Policy
               </Link>
             </li>
             <li>
-              <Link to="/terms-conditions" className="hover:text-white transition-colors">
+              <Link to="/terms-conditions" className="hover:text-[#F5EBE6] transition-colors">
                 Terms & Conditions
               </Link>
             </li>
             <li>
-              <Link to="/refund-policy" className="hover:text-white transition-colors">
+              <Link to="/refund-policy" className="hover:text-[#F5EBE6] transition-colors">
                 Refund & Cancellation
               </Link>
             </li>
             <li>
-              <Link to="/shipping-policy" className="hover:text-white transition-colors">
+              <Link to="/shipping-policy" className="hover:text-[#F5EBE6] transition-colors">
                 Shipping Policy
               </Link>
             </li>
@@ -347,22 +467,19 @@ export default function AppFooter() {
 
         {/* Contact Info */}
         <div>
-          <h4 className="text-xs font-bold uppercase tracking-widest text-white mb-4">
+          <h4 className="text-xs font-bold uppercase tracking-widest text-[#F5EBE6] mb-4">
             Contact Support
           </h4>
-          <div className="space-y-2 text-xs text-slate-400 leading-relaxed">
+          <div className="space-y-2 text-xs text-[#B5A497] leading-relaxed">
             <p>
-              <strong className="text-slate-200">Email:</strong>{' '}
+              <strong className="text-[#F5EBE6]">Email:</strong>{' '}
               <a href="mailto:syvora.official.acc@gmail.com" className="hover:underline">
                 syvora.official.acc@gmail.com
               </a>
             </p>
-            <p>
-              <strong className="text-slate-200">Phone:</strong> +91 82658 75877
-            </p>
-            <p className="pt-2 text-[11px] text-slate-500">
+            <p className="pt-2 text-[11px] text-[#9E8B7D]">
               SYVORA<br />
-              257, Street no-08, Firozabad , UP - 283203
+              Firozabad , UP - 283203
             </p>
           </div>
         </div>
@@ -370,7 +487,7 @@ export default function AppFooter() {
       </div>
 
       {/* Copyright Line */}
-      <div className="max-w-7xl mx-auto px-6 mt-10 pt-6 border-t border-slate-800 text-center text-[11px] text-slate-500">
+      <div className="max-w-7xl mx-auto px-6 mt-10 pt-6 border-t border-[#43342D] text-center text-[11px] text-[#9E8B7D]">
         © 2026 SYVORA. All rights reserved. Registered under DPDP Act 2023 guidelines.
       </div>
     </footer>
