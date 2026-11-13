@@ -598,8 +598,8 @@ export default function AppFooter() {
           <div className="space-y-2 text-xs text-[#B5A497] leading-relaxed">
             <p>
               <strong className="text-[#F5EBE6]">Email:</strong>{' '}
-              <a href="mailto:syvora.official.acc@gmail.com" className="hover:underline">
-                syvora.official.acc@gmail.com
+              <a href="mailto:support@syvora.in" className="hover:underline">
+                support@syvora.in
               </a>
             </p>
             <p className="pt-2 text-[11px] text-[#9E8B7D]">

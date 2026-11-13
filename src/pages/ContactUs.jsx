@@ -271,7 +271,7 @@ export default function ContactUs() {
         <div className="space-y-3">
           <h2 className="text-lg font-semibold text-slate-900 border-b pb-2">Customer Support</h2>
           <ul className="text-sm space-y-2 text-slate-700">
-            <li><strong>Email:</strong> syvora.official.acc@gmail.com</li>
+            <li><strong>Email:</strong> support@syvora.in </li>
             
             <li><strong>Support Hours:</strong> Mon – Sat: 10:00 AM to 7:00 PM IST</li>
             <li><strong>Response SLA:</strong> Within 48 business hours</li>
@@ -307,7 +307,7 @@ export default function ContactUs() {
         </p>
         <ul className="text-xs space-y-1 text-slate-700 pt-2">
           <li><strong>Name:</strong> Navya Kulshrestha</li>
-          <li><strong>Email:</strong> syvora.official.acc@gmail.com</li>
+          <li><strong>Email:</strong> support@syvora.in </li>
           <li><strong>Resolution Time:</strong> Acknowledged within 48 hours; resolved within 15 days.</li>
         </ul>
       </div>

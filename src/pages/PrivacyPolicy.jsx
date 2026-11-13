@@ -267,7 +267,7 @@ export default function PrivacyPolicy() {
           <div className="space-y-1">
             <p className="font-semibold text-slate-900">SYVORA</p>
             <p>Contact: Navya Kulshrestha (Founder & Grievance Officer)</p>
-            <p>Email: syvora.official.acc@gmail.com</p>
+            <p>Email: support@syvora.in </p>
             <p className="pt-2">Response SLA: Acknowledged within 48 hours | Resolved within 15 days.</p>
           </div>
         </section>
